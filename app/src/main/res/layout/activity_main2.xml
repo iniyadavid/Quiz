@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="35dp"
-            android:text="1.Who is this dude?"
+            android:text="@string/q1"
             android:textAlignment="center"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="#16078e"
@@ -52,7 +52,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="120dp"
-                android:text="Justin Bieber"
+                android:text="@string/jb"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#18369b"
                 android:textStyle="bold" />
@@ -73,7 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="35dp"
-            android:text="2.Who is this dudette?"
+            android:text="@string/q2"
             android:textAlignment="center"
 
 
@@ -96,7 +96,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="120dp"
             android:layout_marginTop="20dp"
-            android:text="Taylor Swift"
+            android:text="@string/ts"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="#18369b"
             android:textStyle="bold" />
@@ -126,7 +126,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="35dp"
             android:layout_marginTop="20dp"
-            android:text="3.Who is this singer?"
+            android:text="@string/q3"
             android:textAlignment="center"
 
             android:textAppearance="?android:textAppearanceLarge"
@@ -154,7 +154,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="120dp"
                 android:layout_marginTop="20dp"
-                android:text="Britney Spears"
+                android:text="@string/bs"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#18369b"
                 android:textStyle="bold" />
@@ -184,7 +184,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="35dp"
-            android:text="4.Who is this popstar?"
+            android:text="@string/q4"
             android:textAlignment="center"
 
 
@@ -216,7 +216,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="35dp"
-            android:text="5.Who is this songbird?"
+            android:text="@string/q5"
             android:textAlignment="center"
 
 
@@ -255,7 +255,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="120dp"
-                android:text="Victoria Justice"
+                android:text="@string/vj"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#18369b"
                 android:textStyle="bold" />
@@ -280,14 +280,14 @@
             android:text="CHECK MY RESULT!"
             android:textAlignment="center"
             android:textColor="#ffff"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="40dp"
-            android:text="Your Score!"
+            android:text="@string/yt"
             android:textAlignment="center"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="#022a79"

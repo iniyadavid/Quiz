@@ -4,6 +4,15 @@
     <string name="jb">Justin Bieber</string>
     <string name="sg">Selena Gomez</string>
     <string name="bs">Britney Spears</string>
+    <string name="ts">Taylor Swift</string>
+
     <string name="vj">Victoria Justice</string>
     <string name="next1">Take the Quiz Again!</string>
+    <string name="q1">1.Who is this dude?</string>
+    <string name="q2">2.Who is this dudette?</string>
+    <string name="q3">3.Who is this singer?</string>
+    <string name="q4">4.Who is this popstar?</string>
+    <string name="q5">5.Who is this songbird?</string>
+    <string name="yt">Your Score!</string>
+
 </resources>
