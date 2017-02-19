@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">Quiz</string>
+    <string name="app_name">MusicQuiz</string>
     <string name="next">Begin Quiz!</string>
-
+    <string name="jb">Justin Bieber</string>
+    <string name="sg">Selena Gomez</string>
+    <string name="bs">Britney Spears</string>
+    <string name="vj">Victoria Justice</string>
+    <string name="next1">Take the Quiz Again!</string>
 </resources>

@@ -2,16 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/music1"
+android:background="@drawable/back2"
     android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
     android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="Guess The POPSTAR!"
+        android:textSize="30dp"
     android:textAlignment="center"
         android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="#4689C8"
+        android:textColor="#022a79"
         android:textStyle="bold"/>
     <TextView
         android:layout_width="match_parent"
@@ -19,13 +20,25 @@
     android:text="Think you know your favourite Popstar's face! Take the quiz to find out!"
         android:textAlignment="center"
         android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="#ff2414"
+        android:textSize="30dp"
+        android:textColor="#a40303"
         android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/photo_image_view5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+
+        android:src="@drawable/m3" />
 
     <Button    android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:text="@string/next"
-        android:backgroundTint="@color/colorAccent1"
+        android:textSize="30dp"
+        android:textColor="#fbfbfd"
+        android:textStyle="bold"
+       android:background="#d24848"
         android:textAlignment="center" />
 </LinearLayout>
