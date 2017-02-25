@@ -14,7 +14,7 @@ import android.widget.TextView;
  * Created by ctadmin on 18-02-2017.
  */
 public class Main2Activity extends AppCompatActivity {
-public int quizScore=0;
+public int quizScore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public int quizScore=0;
 
             @Override
             public void onClick(View view) {
-             // quizScore=0;
+             quizScore=0;
 
                 RadioGroup rbGroup1 = (RadioGroup) findViewById(R.id.r1);
                 int selectedId1 = rbGroup1.getCheckedRadioButtonId();
